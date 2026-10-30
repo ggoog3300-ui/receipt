@@ -1,0 +1,42 @@
+{
+  "id": "./",
+  "name": "خضارنا | متجر الخضروات والفواكه",
+  "short_name": "خضارنا",
+  "description": "تسوّق الخضروات والفواكه الطازجة واطلبها إلى باب بيتك في الناصرية، العراق.",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "./index.html?source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F7F8F2",
+  "theme_color": "#087443",
+  "categories": [
+    "shopping",
+    "food"
+  ],
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ]
+}
